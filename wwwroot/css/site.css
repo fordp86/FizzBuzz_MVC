@@ -16,3 +16,19 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+td {
+    color: springgreen;
+}
+
+td[data-color-code='fizz'] {
+    color: orangered;
+}
+
+td[data-color-code='buzz'] {
+    color: yellow;
+}
+
+td[data-color-code='fizzbuzz'] {
+    color: lightblue;
+}
